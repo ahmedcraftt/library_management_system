@@ -1,4 +1,4 @@
-package com.example.library_management_system;
+package frontend;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
