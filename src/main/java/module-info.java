@@ -6,6 +6,7 @@ module com.example.library_management_system {
     requires org.kordamp.bootstrapfx.core;
     requires java.sql;
 
+    opens backend to javafx.base;
     opens frontend to javafx.fxml;
     exports frontend;
 }

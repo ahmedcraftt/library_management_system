@@ -21,11 +21,20 @@ public class Book {
         this.isBorrowed = false;
     }
 
+    public Book(String title,String author,boolean isBorrowed){
+            this.title=title;
+            this.author=author;
+            this.isBorrowed=isBorrowed;
+    }
+
     public int getId() { return id; }
     public void setId(int id) { this.id = id; }
 
     public String getTitle() { return title; }
     public String getAuthor() { return author; }
+    public String getStatus() {
+        return isBorrowed ? "Borrowed" : "Available";
+    }
 
     public boolean isBorrowed() { return isBorrowed; }
     public void setBorrowed(boolean borrowed) { isBorrowed = borrowed; }
