@@ -19,7 +19,6 @@
     -fx-background-insets: 0;
 }
 
-/* Table header */
 .table-view .column-header-background {
     -fx-background-color: #222222;
 }
